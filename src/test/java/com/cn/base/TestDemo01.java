@@ -12,6 +12,7 @@ import java.util.Arrays;
  */
 public class TestDemo01 extends Demo01{
 
+
     @Test
     public void towSum2(){
         int[] input = new int[]{2,7,11,15};
@@ -26,4 +27,15 @@ public class TestDemo01 extends Demo01{
         System.out.println("["+result[0]+","+result[1]+"]");
     }
 
+    @Test
+    public void isPowerOfTwo(){
+        int input = 2147483647;
+        System.out.println(isPowerOfTwo(input));
+    }
+
+    @Test
+    public void addTwoNumbers(){
+        ListNode result = addTwoNumbers(new ListNode(3), new ListNode(4));
+        System.out.println(result.val);
+    }
 }
