@@ -58,7 +58,7 @@ public class InsertionSort {
 
     /*
      * 只对arr[l,r]进行插入排序
-     * 引用：归并排序优化时调用
+     * 应用：归并排序优化时调用
      * */
     public static <E extends Comparable<E>> void sort(E[] arr, int l, int r) {
         for (int i = l; i <= r; i++) {

@@ -2,7 +2,7 @@ package com.cn.advance.Stage2.BSearch;
 
 /*
  * 有序数组的：
- * 二分查找
+ * 二分查找,递归实现
  */
 public class BinarySearch {
     private BinarySearch(){}
