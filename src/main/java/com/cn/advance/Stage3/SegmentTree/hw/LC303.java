@@ -1,8 +1,5 @@
 package com.cn.advance.Stage3.SegmentTree.hw;
 
-import com.cn.advance.Stage3.SegmentTree.Merger;
-import com.cn.advance.Stage3.SegmentTree.SegmentTree;
-
 /*
  *303. 区域和检索 - 数组不可变
  * https://leetcode-cn.com/problems/range-sum-query-immutable/

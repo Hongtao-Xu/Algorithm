@@ -44,7 +44,7 @@ public class UnionFind1 implements UF {
         int pID = find(p);
         int qID = find(q);
 
-        if (qID == pID) return;
+        if (qID == pID) return;//已连接
 
         // 合并过程需要遍历一遍所有元素, 将两个元素的所属集合编号合并
         for (int i = 0; i < id.length; i++)

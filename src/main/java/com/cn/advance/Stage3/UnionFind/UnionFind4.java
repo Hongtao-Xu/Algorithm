@@ -61,7 +61,7 @@ public class UnionFind4 implements UF {
             parent[qRoot] = pRoot;
         } else {
             parent[qRoot] = pRoot;
-            rank[pRoot] += 1;// 此时, 我维护rank的值
+            rank[pRoot] += 1;// 此时, 维护rank的值
         }
     }
 }

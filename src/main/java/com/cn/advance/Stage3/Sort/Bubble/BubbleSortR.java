@@ -3,8 +3,6 @@ package com.cn.advance.Stage3.Sort.Bubble;
 import com.cn.advance.utils.ArrayGenerator;
 import com.cn.advance.utils.SortingHelper;
 
-import java.util.Arrays;
-
 /*
  * 冒泡排序
  * 另一种实现思路：
